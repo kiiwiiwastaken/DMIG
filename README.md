@@ -2,15 +2,12 @@
 This is a download manager that I'm making entirely in go.
 
 # Building
-run the following command to run without making an executable:
-
-`go run dmig.go`
-
-or to build an executable...
+`go mod init dmig`
 
 `go build dmig.go`
 
-
 # TODO
 - [x] Ask for url of file to download instead of needing to edit source
-- [ ] Add progress bar/percentage
+- [x] Add progress bar/percentage
+- [ ] Have automatic file naming
+- [ ] Assume the url is https by default
